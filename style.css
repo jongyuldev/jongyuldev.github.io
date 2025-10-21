@@ -1,0 +1,24 @@
+body {
+    background-color:beige;
+    font-family: "Montserrat";
+}
+
+.climbs img {
+    width: 400px;
+    height: auto;
+}
+
+.holds img {
+    width: 200px;
+    height: auto;
+}
+
+/* refer to https://www.w3.org/TR/css-multicol-1/ */
+ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
